@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenOffice — Озеленение офисных помещений</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-green">Green</span><span class="logo-space">Office</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#reasons">Почему мы</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+      <div class="nav-right">
+        <span class="city">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          Москва
+        </span>
+        <button class="cart-btn" aria-label="Корзина">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        </button>
+        <button class="burger" id="burger" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="leaf leaf-1"></div>
+    <div class="leaf leaf-2"></div>
+    <div class="leaf leaf-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-text reveal">
+        <h1 class="hero-title">
+          Озеленение<br />офисных<br />помещений
+        </h1>
+        <p class="hero-subtitle">
+          Создайте уютное рабочее пространство<br />с помощью нашего зелёного декора
+        </p>
+      </div>
+
+      <div class="hero-card glass reveal reveal-delay-1">
+        <div class="hero-card-plant">
+          <img src="img/растение.png" alt="Растение" />
+        </div>
+        <a href="#contact" class="cta-btn">
+          Открыть каталог
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-bg"></div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="section-title">
+            Превращаем офисы в комфортные зоны для работы
+          </h2>
+          <div class="about-video-wrap glass">
+            <img src="img/офис.jpeg" alt="Офис с растениями" class="about-img" />
+          </div>
+        </div>
+
+        <div class="about-right">
+          <p class="about-desc reveal reveal-delay-1">
+            Даже деловая среда должна быть приятной, поэтому мы создаём уникальные проекты, которые способствуют продуктивной работе ваших сотрудников
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-card glass reveal reveal-delay-1">
+              <div class="stat-number" data-target="10">0</div>
+              <div class="stat-label">лет <span>на рынке</span></div>
+            </div>
+            <div class="stat-card glass reveal reveal-delay-2">
+              <div class="stat-number" data-target="500" data-suffix="+">0</div>
+              <div class="stat-label">выполненных <span>проектов</span></div>
+            </div>
+            <div class="stat-card glass reveal reveal-delay-3">
+              <div class="stat-number" data-target="99" data-suffix="%">0</div>
+              <div class="stat-label">довольных <span>клиентов</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reasons" id="reasons">
+    <div class="reasons-bg"></div>
+    <div class="container">
+      <h2 class="section-title centered reveal">
+        4 причины, почему с нами удобно<br />и надёжно работать
+      </h2>
+
+      <div class="reasons-grid">
+        <div class="reason-card glass reveal reveal-delay-1">
+          <span class="reason-num">1</span>
+          <h3>Качество</h3>
+          <p>Используем только лучшие растения, которые сохраняют свой вид на протяжении долгих лет</p>
+        </div>
+        <div class="reason-card glass reveal reveal-delay-2">
+          <span class="reason-num">2</span>
+          <h3>Скорость</h3>
+          <p>Ценим ваше время и гарантируем быстрый результат, сохранив при этом высокое качество</p>
+        </div>
+        <div class="reason-card glass reveal reveal-delay-3">
+          <span class="reason-num">3</span>
+          <h3>Разнообразие</h3>
+          <p>Предлагаем широкий выбор оформления с учётом ваших пожеланий и бюджета</p>
+        </div>
+        <div class="reason-card glass reveal reveal-delay-4">
+          <span class="reason-num">4</span>
+          <h3>Доступность</h3>
+          <p>Готовы реализовать проект любой сложности в любом уголке страны</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-bg"></div>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <h2 class="section-title">Обсудим детали проекта?</h2>
+          <p class="contact-sub">Свяжитесь с нами</p>
+          <div class="socials">
+            <a href="#" class="social-btn glass" aria-label="ВКонтакте">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C5.29 11.426 4.62 9.492 4.62 9.1c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.779.677.864 2.49 2.303 4.675 2.896 4.675.22 0 .322-.102.322-.66V9.949c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.27-1.422 2.168-3.608 2.168-3.608.119-.254.322-.491.762-.491h1.744c.525 0 .643.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.78 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.745-.576.745z"/></svg>
+            </a>
+            <a href="#" class="social-btn glass" aria-label="Telegram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.19 13.982l-2.965-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.963.577z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right reveal reveal-delay-2">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" class="form-input glass" placeholder="Имя" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-input glass" placeholder="Телефон" required />
+            </div>
+            <div class="form-group">
+              <textarea class="form-input form-textarea glass" placeholder="Комментарий" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span>Отправить</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <p class="form-note">Нажимая на кнопку, я даю согласие на обработку персональных данных</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner container">
+      <nav class="footer-nav">
+        <a href="#about">О нас</a>
+        <a href="#reasons">Ассортимент</a>
+        <a href="#contact">Заказать</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a href="#" class="logo footer-logo">
+        <span class="logo-green">Green</span><span class="logo-space">Office</span>
+      </a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+    Заявка отправлена! Мы свяжемся с вами.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
